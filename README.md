@@ -1,5 +1,3 @@
----
-
 **AutoBridge Builder**  
 Automatically build bridges as you walk in Minecraft!
 
@@ -33,6 +31,4 @@ AutoBridge Builder is a Spigot plugin that automatically places blocks underneat
 4. Start walking and watch the bridges form below you!
 
 **Support:**
-If you encounter any issues or need assistance, feel free to contact us or check out the official documentation.
-
----
+If you encounter any issues or need assistance, don't hesitate to get in touch with us or check out the official documentation.
