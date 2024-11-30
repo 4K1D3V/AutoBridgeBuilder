@@ -1,0 +1,39 @@
+# List of allowed blocks for regular players to use for building bridges
+allowed-blocks:
+  - "PACKED_ICE"
+  - "STONE"
+  - "BRICKS"
+  - "DIAMOND_BLOCK"
+
+# OP-specific blocks that can be used for bridge-building
+op-blocks:
+  - "EMERALD_BLOCK"
+  - "GLOWSTONE"
+  - "NETHER_STAR"
+
+# Bridge building effects configuration
+bridge-effects:
+  enable-particles: true
+  enable-sound: true
+  particle-type: "BLOCK_CRACK"
+  sound-type: "BLOCK_METAL_PLACE"
+
+# Default block type for the bridge (can be overridden by players and admins)
+bridge-block: "PACKED_ICE"
+
+# GUI Configuration
+gui:
+  gui_title: "Select Block Type"
+
+# Messages Configuration
+messages:
+  no_perms:
+    only_player: "Only players can use this command."
+    no_reload: "You do not have permission to reload the config."
+    no_set_block: "You do not have permission to set the block."
+
+  perms:
+    set_block: "Bridge block set to "
+
+  null:
+    invalid_block: "Invalid block type."

@@ -1,0 +1,25 @@
+name: AutoBridgeBuilder
+version: '1.0-RELEASE'
+main: pro.akii.pl.autoBridgeBuilder.AutoBridgeBuilder
+api-version: '1.21'
+load: STARTUP
+authors: [ Akizuki ]
+description: This plugin allows players to create explosions with fireworks that apply a specific potion effect (such as speed, strength, or regeneration) to nearby players when the firework explodes. This can be triggered by commands or by using a custom item (like a firework rocket with special metadata).
+website: https://akii.pro
+commands:
+  autobridge:
+    description: Auto bridge builder plugin
+    usage: /<command> [toggle|block <block>]
+permissions:
+  autobridge.use:
+    description: Allows use of bridge-building
+    default: true
+  autobridge.block:
+    description: Allows setting the bridge block type
+    default: op
+  autobridge.reload:
+    description: Allows reloading the plugin configuration
+    default: op
+  autobridge.admin:
+    description: Allows OPs to configure settings
+    default: op
